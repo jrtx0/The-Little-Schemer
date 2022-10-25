@@ -10,17 +10,6 @@
       ((eq? a (car lat)) (cdr lat))
       (else (cons (car lat) (rember a (cdr lat)))))))
 
-; remove all ocurrences a in lat
-; multirember: symbol lat -> lat
-(define multirember
-  (lambda (a lat)
-    (cond
-      ((null? lat) (quote ()))
-      (else (cond
-              ((eq? (car lat) a) (multirember a (cdr lat)))
-              (else (cons (car lat) (multirember a
-                            (cdr lat)))))))))
-
 ; firsts: list -> list
 (define firsts
   (lambda (l)
