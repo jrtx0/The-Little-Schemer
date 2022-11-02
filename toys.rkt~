@@ -2,8 +2,6 @@
 
 (require racket/trace)
 
-(provide atom?)
-
 (define atom?
   (lambda (m)
     (and (not (pair? m)) (not (null? m)))))

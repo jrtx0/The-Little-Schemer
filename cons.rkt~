@@ -2,8 +2,6 @@
 
 (require racket/trace)
 
-(provide firsts multirember)
-
 ; rember: symbol lat -> lat
 (define rember
   (lambda (a lat)
