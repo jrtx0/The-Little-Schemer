@@ -1,2 +1,2 @@
 # The Little Schemer Code.
-The little schemer code implemented in DrRacket.
+the little schemer code implemented in DrRacket.
