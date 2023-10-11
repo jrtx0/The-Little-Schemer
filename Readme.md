@@ -1,2 +1,2 @@
-# the little schemer code.
-the little schemer code implemented in DrRacket.
+# 《tThe Little Schemer》 code.
+《The Little Schemer》 code implemented in DrRacket.
